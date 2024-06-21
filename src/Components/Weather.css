@@ -1,0 +1,36 @@
+
+body{
+  background: rgba(182, 238, 226, 0.7);
+}
+
+
+.card{
+    margin-right: 20px;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 255, 144);
+  border-radius: 30px;
+  box-shadow: 0.3px 0.3px 0.3px 1px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
+  float: right;
+}
+
+
+.city{
+    color: rgb(17, 14, 14);
+    align-items: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+.desc{
+  position: absolute;
+  display: inline;
+  align-items: center;
+}
+
+.temp{
+    align-items: center;
+    font-size: 20px;
+}

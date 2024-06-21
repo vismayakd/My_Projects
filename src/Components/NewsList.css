@@ -1,0 +1,33 @@
+
+.language{
+    font-size: large;
+    float: left;
+}
+.news-cat-container {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    clear: right;
+    margin-left: 20PX;
+    margin-right: 20PX;
+    
+  }
+.cat_card {
+    background-color: white;
+    /* color: blue; */
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cat_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.news_title{
+    color:blue
+}
+.news_desc{
+    color:black
+}
